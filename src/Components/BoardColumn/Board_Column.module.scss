@@ -1,0 +1,24 @@
+.outercontainer {
+  background-color: #81ecec;
+  width: 300px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  border-radius: 6px;
+}
+.innercontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+i:hover {
+  color: #ff793f;
+}
+@media only screen and (max-width: 586px) {
+  .outercontainer {
+    margin: 10px 5px;
+  }
+}

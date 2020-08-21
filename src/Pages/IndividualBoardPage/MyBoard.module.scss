@@ -1,0 +1,50 @@
+.mainContainer {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.myboard {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin: 20px auto;
+  .boardTitle {
+    color: #039be5;
+  }
+  button {
+    padding: 7px 10px;
+    border-radius: 10px;
+    transition: all 1s ease;
+    background-color: black;
+    text-align: center;
+    color: red;
+    font-size: 1rem;
+    border: 2px solid red !important;
+    cursor: pointer;
+    &:hover {
+      background-color: red;
+      color: black;
+      border: 2px solid black !important;
+    }
+  }
+}
+@media only screen and (max-width: 786px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

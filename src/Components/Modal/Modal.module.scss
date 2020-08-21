@@ -1,0 +1,25 @@
+.Backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  text-align: center;
+}
+.Modal_content {
+  background-color: whitesmoke;
+  min-height: 250px;
+  position: fixed;
+  width: 78%;
+  border-radius: 10px;
+  left: 10%;
+  top: 10%;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 586px) {
+  .Modal_content {
+    top: 5%;
+  }
+}

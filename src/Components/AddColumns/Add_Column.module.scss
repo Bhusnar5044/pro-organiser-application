@@ -1,0 +1,105 @@
+.title {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed gray;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  transition: all 0.4s ease-in-out;
+  cursor: crosshair;
+  &:hover {
+    border: 3px dashed black;
+  }
+}
+.container {
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+}
+.heading {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+form {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  label {
+    margin: 10px 0px;
+  }
+  .formDiv {
+    width: 100%;
+    input {
+      width: 98%;
+      border-radius: 6px;
+      border-bottom: 2px solid gray !important;
+      padding: 5px;
+
+      border: 2px solid gray;
+      background-color: transparent;
+      &:focus {
+        border: 2px solid gray !important;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+
+.buttons {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px;
+}
+button {
+  margin: 0 10px;
+  padding: 6px 0;
+  transition: all 0.3s linear;
+}
+.btn1 {
+  margin-right: 20px;
+  background-color: #0984e3;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn2 {
+  margin-right: 20px;
+  background-color: #eb3b5a;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn1:focus,
+.btn2:focus {
+  outline: none;
+}
+.btn1:hover {
+  background-color: lightblue;
+  color: black;
+}
+.btn2:hover {
+  background-color: #ff5252;
+  color: black;
+}
+@media only screen and (max-width: 786px) {
+.title{
+width: 150px;
+height: 150px;
+margin: 15px auto;
+}
+
+}

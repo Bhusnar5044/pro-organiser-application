@@ -1,0 +1,288 @@
+.cardelement {
+  width: 90%;
+  border: 2px solid black;
+  margin: 10px auto;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.addedcard {
+  width: 90%;
+  height: 80px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.members {
+  background-color: gray;
+  text-transform: uppercase;
+  width: 30px;
+  color: whitesmoke;
+  border-radius: 50%;
+}
+
+form {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  label {
+    background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0px;
+  }
+  .formDiv {
+    width: 100%;
+    input {
+      width: 98%;
+      padding: 5px;
+      border-radius: 5px;
+      border: 2px solid gray;
+      &:focus {
+        border: 2px solid gray !important;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+select {
+  width: 98%;
+}
+.title {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.buttons {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+.btn1 {
+  margin-right: 20px;
+  background-color: #0984e3;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn2 {
+  margin-right: 20px;
+  background-color: #eb3b5a;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn1:focus,
+.btn2:focus {
+  outline: none;
+}
+.btn1:hover {
+  background-color: lightblue;
+  color: black;
+}
+.btn2:hover {
+  background-color: #ff5252;
+  color: black;
+}
+
+button {
+  margin: 0 10px;
+  padding: 6px 0;
+  transition: all 0.3s linear;
+}
+.btn1 {
+  margin-right: 20px;
+  background-color: #0984e3;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn2 {
+  margin-right: 20px;
+  background-color: #eb3b5a;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn1:focus,
+.btn2:focus {
+  outline: none;
+}
+.btn1:hover {
+  background-color: lightblue;
+  color: black;
+}
+.btn2:hover {
+  background-color: #ff5252;
+  color: black;
+}
+
+p {
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+
+.cardDetails {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cardtitle {
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 10px;
+}
+.handleButtons {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.btn1 {
+  margin-right: 20px;
+  background-color: #0984e3;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn2 {
+  margin-right: 20px;
+  background-color: #eb3b5a;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn1:focus,
+.btn2:focus {
+  outline: none;
+}
+.btn1:hover {
+  background-color: lightblue;
+  color: black;
+}
+.btn2:hover {
+  background-color: #ff5252;
+  color: black;
+}
+.boardtype {
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 10px;
+
+  display: inline;
+}
+.buttons {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+.membersboard {
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+
+  text-transform: uppercase;
+  width: 30px;
+  color: whitesmoke;
+  border-radius: 50%;
+  margin: 0 4px;
+  font-weight: 700;
+}
+.button {
+  margin: 0 10px;
+  padding: 6px 0;
+  transition: all 0.3s linear;
+}
+.button {
+  margin: 20px 0px;
+  padding: 8px 8px;
+  transition: all 0.3s linear;
+  background-color: #706fd3;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: #40407a;
+    color: white;
+  }
+}
+@media only screen and (max-width: 586px) {
+  form {
+    margin-top: 5px;
+    label {
+      background-color: red;
+      margin: 6px 0px;
+      font-size: 3vw;
+    }
+  }
+}
