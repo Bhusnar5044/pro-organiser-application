@@ -13,6 +13,11 @@ const firebaseConfig = {
   measurementId: "G-DS9014FQPN"
 };
 
+firebase.initializeApp(firebaseConfig);
+// val firestoreSettings = FirebaseFirestoreSettings.Builder()
+//     .setPersistenceEnabled(true)
+//     .build()
+
 export const createUserProfileDocument = async (userAuth, additionaldata) => {
   //passed 2 arg i.e 1-the user obj we are getting from firebase and 2-is for signup functionality
   //we will only save data when user is signed in
@@ -40,7 +45,6 @@ export const createUserProfileDocument = async (userAuth, additionaldata) => {
   }
   return userRef;
 };
-firebase.initializeApp(firebaseConfig);
 
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();

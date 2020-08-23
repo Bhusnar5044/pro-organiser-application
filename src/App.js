@@ -37,13 +37,12 @@ const App = () => {
     <div className="App">
       <NavBar currentUser={currentUser} />
       <Switch>
-        {/* <Route path="/signin" component={SignIn_SignUp_Page} /> */}
+        <Route path="/signin" component={SignIn_SignUp_Page} />
         <Route
           path="/"
           exact
           render={() =>
-            <Homepage />
-            // currentUser ? <Homepage /> : <Redirect to="/signin" />
+            currentUser ? <Homepage /> : <Redirect to="/signin" />
           }
         />
         <Route
@@ -51,15 +50,13 @@ const App = () => {
           exact
           strict
           render={() =>
-            <Board_Page />
-            // currentUser ? <Board_Page /> : <Redirect to="/signin" />
+            currentUser ? <Board_Page /> : <Redirect to="/signin" />
           }
         />
         <Route
           path="/:boardName"
           render={() =>
-            <MyBoard_Page />
-            // currentUser ? <MyBoard_Page /> : <Redirect to="/signin" />
+            currentUser ? <MyBoard_Page /> : <Redirect to="/signin" />
           }
         />
       </Switch>
