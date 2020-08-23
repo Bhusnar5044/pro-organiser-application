@@ -7,7 +7,7 @@ const Pre_Loader = () => {
         width: "100vw",
         display: "flex",
         justifyContent: "center",
-        margin: "20px 0",
+        margin: "80px 0",
       }}
     >
       <div

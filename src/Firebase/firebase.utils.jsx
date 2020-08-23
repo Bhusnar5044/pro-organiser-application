@@ -3,13 +3,14 @@ import "firebase/firestore"; //imported database library
 import "firebase/auth"; //imported authentication library
 //we need to import firebase because firestore and auth will be availiable to us then
 const firebaseConfig = {
-  apiKey: "AIzaSyCeQTX9Sfrqpr2RAUx0hof4KyUAN20nve0",
-  authDomain: "pro-organizer-app-8f3bf.firebaseapp.com",
-  databaseURL: "https://pro-organizer-app-8f3bf.firebaseio.com",
-  projectId: "pro-organizer-app-8f3bf",
-  storageBucket: "pro-organizer-app-8f3bf.appspot.com",
-  messagingSenderId: "1039328418565",
-  appId: "1:1039328418565:web:b4af8688df40514931756c",
+  apiKey: "AIzaSyB0PhHVDdrKsITYN7FaJW1uzOxOBAQiOzI",
+  authDomain: "pro-organizer-app-4cab0.firebaseapp.com",
+  databaseURL: "https://pro-organizer-app-4cab0.firebaseio.com",
+  projectId: "pro-organizer-app-4cab0",
+  storageBucket: "pro-organizer-app-4cab0.appspot.com",
+  messagingSenderId: "507797288588",
+  appId: "1:507797288588:web:f5d6e15b08e81db91ceda9",
+  measurementId: "G-DS9014FQPN"
 };
 
 export const createUserProfileDocument = async (userAuth, additionaldata) => {

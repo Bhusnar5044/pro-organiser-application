@@ -32,14 +32,14 @@ const NavBar = ({ currentUser }) => {
           style={{ textDecoration: "none" }}
         >
           <li
-            onClick={() => {
-              !currentUser &&
-                swal(
-                  "You haven't Signed In!",
-                  "Please Sign In with registered Email or with Google",
-                  "info"
-                );
-            }}
+            // onClick={() => {
+            //   !currentUser &&
+            //     swal(
+            //       "You haven't Signed In!",
+            //       "Please Sign In with registered Email or with Google",
+            //       "info"
+            //     );
+            // }}
             className={Style.item1}
           >
             HOME
@@ -51,19 +51,19 @@ const NavBar = ({ currentUser }) => {
           style={{ textDecoration: "none" }}
         >
           <li
-            onClick={() => {
-              !currentUser &&
-                swal(
-                  "You haven't Signed In!",
-                  "Please Sign In with registered Email or with Google",
-                  "info"
-                );
-            }}
+            // onClick={() => {
+            //   !currentUser &&
+            //     swal(
+            //       "You haven't Signed In!",
+            //       "Please Sign In with registered Email or with Google",
+            //       "info"
+            //     );
+            // }}
           >
             CREATE BOARD
           </li>
         </NavLink>
-        {currentUser ? (
+        {/* {currentUser ? (
           <li onClick={handleSignOut}>SIGN OUT</li>
         ) : (
           <NavLink
@@ -74,7 +74,7 @@ const NavBar = ({ currentUser }) => {
           >
             <li className={Style.item1}>SIGN IN</li>
           </NavLink>
-        )}
+        )} */}
       </ul>
     </div>
   );
