@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/pro-organiser-application/static/css/main.6d8442eb.chunk.css",
-    "main.js": "/pro-organiser-application/static/js/main.0fc1f5b5.chunk.js",
-    "main.js.map": "/pro-organiser-application/static/js/main.0fc1f5b5.chunk.js.map",
+    "main.js": "/pro-organiser-application/static/js/main.a26656d7.chunk.js",
+    "main.js.map": "/pro-organiser-application/static/js/main.a26656d7.chunk.js.map",
     "runtime-main.js": "/pro-organiser-application/static/js/runtime-main.d1569768.js",
     "runtime-main.js.map": "/pro-organiser-application/static/js/runtime-main.d1569768.js.map",
     "static/css/2.11829350.chunk.css": "/pro-organiser-application/static/css/2.11829350.chunk.css",
-    "static/js/2.afeabf2f.chunk.js": "/pro-organiser-application/static/js/2.afeabf2f.chunk.js",
-    "static/js/2.afeabf2f.chunk.js.map": "/pro-organiser-application/static/js/2.afeabf2f.chunk.js.map",
+    "static/js/2.539a7a3d.chunk.js": "/pro-organiser-application/static/js/2.539a7a3d.chunk.js",
+    "static/js/2.539a7a3d.chunk.js.map": "/pro-organiser-application/static/js/2.539a7a3d.chunk.js.map",
     "index.html": "/pro-organiser-application/index.html",
-    "precache-manifest.4fe3d05b0d6e865ba7c5008fb070a7bc.js": "/pro-organiser-application/precache-manifest.4fe3d05b0d6e865ba7c5008fb070a7bc.js",
+    "precache-manifest.48583bc06c66f1413afb9f2220d3cf5f.js": "/pro-organiser-application/precache-manifest.48583bc06c66f1413afb9f2220d3cf5f.js",
     "service-worker.js": "/pro-organiser-application/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/pro-organiser-application/static/css/2.11829350.chunk.css.map",
     "static/css/main.6d8442eb.chunk.css.map": "/pro-organiser-application/static/css/main.6d8442eb.chunk.css.map",
-    "static/js/2.afeabf2f.chunk.js.LICENSE.txt": "/pro-organiser-application/static/js/2.afeabf2f.chunk.js.LICENSE.txt",
+    "static/js/2.539a7a3d.chunk.js.LICENSE.txt": "/pro-organiser-application/static/js/2.539a7a3d.chunk.js.LICENSE.txt",
     "static/media/stone.jpg": "/pro-organiser-application/static/media/stone.1cc1da05.jpg",
     "static/media/user.png": "/pro-organiser-application/static/media/user.27dd9c0a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d1569768.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.afeabf2f.chunk.js",
+    "static/js/2.539a7a3d.chunk.js",
     "static/css/main.6d8442eb.chunk.css",
-    "static/js/main.0fc1f5b5.chunk.js"
+    "static/js/main.a26656d7.chunk.js"
   ]
 }
