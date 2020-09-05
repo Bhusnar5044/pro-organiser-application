@@ -12,51 +12,51 @@ import { auth, createUserProfileDocument } from "./Firebase/firebase.utils"; //s
 const App = () => {
   const [currentUser, setCurrentUser] = useState(null);
   let unSubscribeFromAuth = null;
-  useEffect(() => {
-    unSubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
-      // setCurrentUser(user);
-      // createUserProfileDocument(user);
-      // console.log(user);
-      if (userAuth) {
-        const userRef = await createUserProfileDocument(userAuth);
-        userRef.onSnapshot((snapShot) => {
-          // console.log(snapShot.data());
-          setCurrentUser({ id: snapShot.id, ...snapShot.data() });
-        });
-      } else {
-        setCurrentUser(userAuth);
-      }
-    });
-    return () => {
-      console.log("it works as component will unmount.");
-      unSubscribeFromAuth(); //it will close the subscription
-    };
-  }, []);
-  console.log(currentUser);
+  // useEffect(() => {
+  //   unSubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
+  //     // setCurrentUser(user);
+  //     // createUserProfileDocument(user);
+  //     // console.log(user);
+  //     if (userAuth) {
+  //       const userRef = await createUserProfileDocument(userAuth);
+  //       userRef.onSnapshot((snapShot) => {
+  //         // console.log(snapShot.data());
+  //         setCurrentUser({ id: snapShot.id, ...snapShot.data() });
+  //       });
+  //     } else {
+  //       setCurrentUser(userAuth);
+  //     }
+  //   });
+  //   return () => {
+  //     console.log("it works as component will unmount.");
+  //     unSubscribeFromAuth(); //it will close the subscription
+  //   };
+  // }, []);
+  // console.log(currentUser);
   return (
     <div className="App">
       <NavBar currentUser={currentUser} />
       <Switch>
-        <Route path="/signin" component={SignIn_SignUp_Page} />
+        {/* <Route path="/signin" component={SignIn_SignUp_Page} /> */}
         <Route
           path="/"
           exact
-          render={() =>
-            currentUser ? <Homepage /> : <Redirect to="/signin" />
+          render={() =><Homepage />
+            // currentUser ? <Homepage /> : <Redirect to="/signin" />
           }
         />
         <Route
           path="/createboard"
           exact
           strict
-          render={() =>
-            currentUser ? <Board_Page /> : <Redirect to="/signin" />
+          render={() =><Board_Page />
+            // currentUser ? <Board_Page /> : <Redirect to="/signin" />
           }
         />
         <Route
           path="/:boardName"
-          render={() =>
-            currentUser ? <MyBoard_Page /> : <Redirect to="/signin" />
+          render={() =><MyBoard_Page />
+            // currentUser ? <MyBoard_Page /> : <Redirect to="/signin" />
           }
         />
       </Switch>

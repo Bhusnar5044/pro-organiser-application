@@ -54,7 +54,7 @@ const SignIn_SignUp = () => {
           }}
         >
           <h2>
-            WElC😍ME <h1>{signup_username.toUpperCase()}</h1>
+            WElCOME <h1>{signup_username.toUpperCase()}</h1>
           </h2>
           <p>Now you can acces all features</p>
         </div>
